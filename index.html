@@ -8,7 +8,7 @@
 		body{padding: 0; margin: 0;}
 		@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 		.wrapper{width: 100vw; height: 100vh; margin: auto; position: relative; background: black;}
-		.intro_img{width: 70vw; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); filter: blur(5px);}
+		.intro_img{height: 100vh; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); /*filter: blur(5px)*/;}
 		.intro_text{left: 50%; transform: translate(-50%,0%);width: auto;position: absolute;color: white; word-break: keep-all; text-align: center; z-index: 999;font-family: "Noto Sans KR", sans-serif; width: 100vw;}
 		.top{top: 3vh; font-size: 12px;}
 		.bottom{bottom: 3vh; font: 30px;}
@@ -20,14 +20,14 @@
 		@media only screen and (max-width: 767px){
 			.gintro{display: none;}
 			.mintro{display: block;}
-			.intro_img{width: 200vw;}
+			.intro_img{height: 100vh;}
 			.wrapper{overflow-x: hidden;}
 		
 	</style>
 </head>
 <body>
 	<div class="wrapper">
-		<img src="plant3.png" class="intro_img">
+		<img src="gate.gif" class="intro_img">
 
 		<!-- 모바일용 인트로 -->
 		<div class="intro_text top mintro">
